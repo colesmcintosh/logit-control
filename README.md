@@ -1,5 +1,10 @@
 # Structured LLM Output with Logit Processing
 
+[![Tags](https://img.shields.io/badge/LLM-Transformers-blue)]()
+[![Tags](https://img.shields.io/badge/NLP-Logit_Control-green)]()
+[![Tags](https://img.shields.io/badge/AI-Structured_Output-orange)]()
+[![Tags](https://img.shields.io/badge/Python-Hugging_Face-yellow)]()
+
 This project demonstrates how to enforce structured output from a Large Language Model (LLM) by directly manipulating the model's output logits during the generation process. Specifically, it uses a custom `LogitsProcessor` with the Hugging Face `transformers` library to force the model to choose its next token from a predefined set.
 
 ## Functionality
